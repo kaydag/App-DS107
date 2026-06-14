@@ -66,7 +66,7 @@ export default function HomeScreen() {
       console.log(data);
       setPrediction(data.prediction);
       setConfidence(data.confidence);
-      setHeatmapUrl(data.heatmap_url);
+      setHeatmapUrl(`data:image/jpeg;base64,${data.heatmap}`);
     } catch (error) {
       console.log(error);
 
