@@ -34,9 +34,6 @@ dataset/
 datasets/
 data/
 
-# Trained Models (nếu model quá lớn)
-*.pt
-*.pth
 
 # OS
 .DS_Store
