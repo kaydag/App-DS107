@@ -1,0 +1,29 @@
+# Backend
+backend/venv/
+backend/uploads/
+backend/heatmaps/
+backend/.env
+
+# Frontend
+fontend/node_modules/
+fontend/.expo/
+
+# Root node_modules
+node_modules/
+
+# VSCode
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (nếu không muốn push model)
+# *.pth
