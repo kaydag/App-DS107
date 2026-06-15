@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://app-ds107-production.up.railway.app";
+const API_URL = "http://192.168.1.75:8000";
 
 export const predictImage = async (imageUri: string) => {
   const formData = new FormData();

@@ -63,10 +63,9 @@ export default function HomeScreen() {
     try {
       setLoading(true);
       const data = await predictImage(selectedUri);
-      console.log(data);
       setPrediction(data.prediction);
       setConfidence(data.confidence);
-      setHeatmapUrl(`data:image/jpeg;base64,${data.heatmap}`);
+      setHeatmapUrl(data.heatmap_url);
     } catch (error) {
       console.log(error);
 
